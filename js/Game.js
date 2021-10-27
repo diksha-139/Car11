@@ -260,9 +260,9 @@ showLife() {
   push();
   image(lifeImage, width / 2 - 130, height - player.positionY - 400, 20, 20);
   fill("white");
-  rect(width / 2 - 100, height - player.positionY - 400, 185, 20);
-  fill("#f50057");
-  rect(width / 2 - 100, height - player.positionY - 400, player.life, 20);
+  rect(width / 2 - 100, height - player.positionY - 40, 185, 20);
+  fill("#f50057")
+  rect(width / 2 - 100, height - player.positionY - 40, player.life, 20);
   noStroke();
   pop();
 }
